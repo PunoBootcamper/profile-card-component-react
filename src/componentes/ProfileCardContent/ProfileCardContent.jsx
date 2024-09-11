@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import profile_image from "/img/image-victor.jpg";
+// eslint-disable-next-line react/prop-types
 const ProfileCardContent = ({ person }) => {
   return (
     <section className="profile-card__content">
