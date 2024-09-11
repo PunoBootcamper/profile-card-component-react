@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
 import profile_image from "/img/image-victor.jpg";
-// eslint-disable-next-line react/prop-types
 const ProfileCardContent = ({ person }) => {
   return (
     <section className="profile-card__content">
@@ -33,5 +32,18 @@ const ProfileCardContent = ({ person }) => {
     </section>
   );
 };
+ProfileCardContent.propTypes = {
+    person: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      age: PropTypes.string.isRequired,
+      location: PropTypes.string.isRequired,
+      statistics: PropTypes.shape({
+        followers: PropTypes.string.isRequired,
+        likes: PropTypes.string.isRequired,
+        photos: PropTypes.string.isRequired
+      }).isRequired
+    }).isRequired
+  };
+  
 
 export default ProfileCardContent;
