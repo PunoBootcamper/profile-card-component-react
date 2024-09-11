@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import profile_image from "/img/image-victor.jpg";
+import "./ProfileCardContent.css"
 const ProfileCardContent = ({ person }) => {
   return (
     <section className="profile-card__content">

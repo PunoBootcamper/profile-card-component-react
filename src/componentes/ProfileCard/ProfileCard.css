@@ -2,53 +2,15 @@
   margin: 0 auto;
   max-width: 420px;
   background-color: #fff;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   overflow: hidden;
   margin: 1rem;
 }
 .profile-card__background {
   max-width: 420px;
 
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   overflow: hidden;
-}
-.profile-card__content img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin-top: -52px;
-  margin-bottom: 20px;
-}
-.profile-card__name {
-  color: var(--secondary-color-desatured-blue);
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.profile-card__name span {
-  color: var(--tertiary-color-grayish-blue);
-  font-weight: 400;
-  margin-left: 8px;
-}
-.profile-card__location {
-  color: var(--neutral-color-gray);
-  font-size: 13px;
-}
-.profile-card__footer {
-  border-top: 1px solid var(--neutral-color-gray);
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  padding: 30px 0;
-}
-.profile-card__footer-number {
-  color: var(--secondary-color-desatured-blue);
-  font-weight: 700;
-  font-size: 18px;
-}
-@media (max-width: 375px) {
-    .profile-card{
-        width: 300px;
-    }
 }
